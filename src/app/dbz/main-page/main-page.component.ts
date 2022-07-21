@@ -29,4 +29,8 @@ export class MainPageComponent  {
     nombre: 'Maestro',
     poder: 1000
   }
+
+  agregarNuevoPersonasje (argumento: Personaje){
+   this.personajes.push(argumento)
+  }
 }
